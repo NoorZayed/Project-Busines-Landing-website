@@ -1,0 +1,173 @@
+/* contact.css */
+
+/* Style for the banner section */
+.contact-banner {
+    text-align: center; /* Center-align text */
+    background-color: #e4bb7abc; /* Set background color with transparency */
+    padding: 100px 0; /* Add padding above and below */
+    margin-bottom: 40px; /* Space below the banner */
+    min-height: fit-content;
+}
+
+/* Style for the title in the banner */
+.contact-banner h1 {
+    font-size: 3em; /* Large font size for heading */
+    color: #023047; /* Dark blue color */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Style for paragraph text in the banner */
+.contact-banner p {
+    font-size: 1.2em; /* Slightly larger font size */
+    color: #555; /* Light gray color */
+}
+
+/* Container for the contact details and form, arranged in a flex layout */
+.contact-container {
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    max-width: 1200px; /* Max width for large screens */
+    margin: 0 auto 40px; /* Center horizontally and space below */
+    gap: 40px; /* Add gap between elements */
+    padding: 0 20px; /* Padding on left and right */
+}
+
+/* Style for the contact details section */
+.contact-details {
+    flex: 1; /* Take up equal space in flex layout */
+    background-color: #f9f9f9c8; /* Light gray background with transparency */
+    padding: 30px; /* Padding inside the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow around the section */
+}
+
+/* Style for the heading inside the contact details */
+.contact-details h2 {
+    font-size: 2em; /* Medium-large heading size */
+    color: #023047; /* Dark blue color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Style for paragraphs within the address section */
+.contact-details address p {
+    margin-bottom: 10px; /* Space below each paragraph */
+    line-height: 1.6; /* Improved line spacing for readability */
+}
+
+/* Style for the contact form section */
+.contact-form {
+    flex: 1.5; /* Take up more space than contact details */
+    background-color: rgba(255, 255, 255, 0.953); /* Slightly transparent white background */
+    padding: 40px; /* Padding inside the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow around the form */
+}
+
+/* Style for the heading inside the contact form */
+.contact-form h2 {
+    font-size: 2em; /* Medium-large heading size */
+    color: #023047; /* Dark blue color */
+    margin-bottom: 30px; /* Space below the heading */
+}
+
+/* Style for the form  using a grid layout */
+form {
+    display: grid; /* Grid layout for form elements */
+    gap: 20px; /* Space between form elements */
+}
+
+/* Style for form labels */
+label {
+    font-weight: 600; /* Bold labels */
+    color: #333; /* Dark gray color */
+}
+
+/* Style for input fields and text areas */
+input, textarea {
+    padding: 12px; /* Padding inside fields */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 6px; /* Rounded corners */
+    width: 100%; /* Full width */
+    font-size: 1em; /* Standard font size */
+}
+
+/* Style for text area specifically */
+textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    height: 150px; /* Set initial height */
+}
+
+/* Style for form buttons container */
+.form-buttons {
+    display: flex; /* Flexbox layout for buttons */
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 15px; /* Space between buttons */
+}
+
+/* Style for buttons inside the form */
+button {
+    padding: 12px 25px; /* Padding inside buttons */
+    background-color: #583183; /* Purple background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1em; /* Standard font size */
+    transition: background-color 0.3s ease; /* Smooth background color change on hover */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #023047; /* Change to dark blue on hover */
+}
+
+/* Style for links inside the address section */
+address a {
+    color: #43a4e6; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for address links */
+address a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Fixed background image for the contact page */
+.contact-background {
+    position: fixed; /* Fix position relative to viewport */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-image: url('../images/rainbow-vortex.png'); /* Set background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Prevent background repetition */
+    z-index: -1; /* Place behind other content */
+    opacity: 0.7; /* Make background slightly transparent */
+}
+
+/* Media Queries for Different Screen Sizes */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-details,
+    .contact-form {
+        width: 100%;
+        max-width: 90%;
+    }
+}
+@media (max-width: 600px) {
+    .form-buttons {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        text-align: center;
+    }
+}

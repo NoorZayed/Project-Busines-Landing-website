@@ -1,0 +1,83 @@
+<!-- Declares the document type and language -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Sets character encoding for proper text display -->
+    <meta charset="UTF-8">
+    <!-- Ensures responsiveness on different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kochi Solutions - Contact</title>
+    <!-- Links to external CSS files for styling -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+    
+    <!-- Header section containing the navigation bar -->
+    <header>
+        <nav>
+            <h1>KOCHI</h1>
+            <!-- Navigation links for different pages -->
+            <ul class="navbar">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Background styling element for visual aesthetics -->
+    <div class="contact-background"></div>
+
+    <!-- Contact banner section -->
+    <section class="contact-banner">
+        <h1>Contact Us</h1>
+        <p>We're here to help. Get in touch with us today!</p>
+    </section>
+
+    <!-- Main contact section containing contact details and inquiry form -->
+    <section class="contact-container">
+        <!-- Contact details section with email, phone, and address -->
+        <section class="contact-details">
+            <h2>Our Contact Details</h2>
+            <address>
+                <p><strong>Email:</strong> <a href="mailto:contact@kochi.com">contact@kochi.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+15555555555">(555) 555-5555</a></p>
+                <p><strong>Central HQ:</strong> <br>123 Avenue Street, <br>City Township, CA 12345</p>
+            </address>
+        </section>
+
+        <section class="contact-form">
+            <h2>Online Inquiry</h2>
+            <form>
+                <!-- Name input field -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="e.g. John Smith" required>
+
+                <!-- Email input field -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="e.g. name@domain.tld" required>
+
+                <!-- Message input field with character constraints -->
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Type your message here (20-500 characters)" minlength="20" maxlength="500" required></textarea>
+
+                <!-- Buttons for form submission and reset -->
+                <div class="form-buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </section>
+
+    <!-- Footer with copyright information -->
+    <footer>
+        <p>Copyright Kochi Inc. 2024. Developed by Eric Kovalevskyy.</p>
+    </footer>
+
+</body>
+</html>

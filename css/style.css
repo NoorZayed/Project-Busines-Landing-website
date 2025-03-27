@@ -1,0 +1,131 @@
+/* General styles applied across the site */
+
+/* Reset default margin, padding, and apply box-sizing */
+* {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+    color: #333;
+}
+
+/* Header and Navigation Bar */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10; /* Ensure header is above other content */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav h1 {
+    margin-right: auto;
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1.0em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    z-index: 1;
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    color: #023047;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color: #080808e3;
+    color: #fffcfc;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Media Queries for Different Screen Sizes */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 10px; 
+    }
+
+    nav {
+        position: static; 
+        z-index: 1;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items:last baseline;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        gap: 10px;
+    }
+    nav a {
+        text-decoration: none;
+        font-size: 1em;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 0.9em;
+    }
+}

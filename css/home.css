@@ -1,0 +1,195 @@
+/* home.css */
+
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: right; /* Aligns text to the right */
+    background-image: url('../images/rainbow-vortex.png'); /* Background image */
+    background-size: cover; /* Ensures the image covers the full section */
+    min-height: 100vh; /* Full viewport height */
+    background-repeat: no-repeat;
+    color: white;
+    padding: 280px 80px;
+}
+
+.hero h1 {
+    font-size: 3rem; /* Large font size for emphasis */
+    margin-bottom: 10px;
+    color: #f2f6f7; 
+}
+
+.hero p {
+    font-size: 1.0rem;
+    color: #faf5f5d7; 
+    margin: 10px 0;
+}
+
+/* Call-to-action button */
+.hero button {
+    padding: 15px 30px;
+    background-color: hsl(44, 62%, 51%); 
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.hero button:hover {
+    background-color: hsl(44, 62%, 60%); /* Lighter gold on hover */
+}
+
+/* Cards section */
+.cards {
+    text-align: center; /* Center align text */
+    margin-top: 40px; /* Adds space above */
+}
+
+.cards h2 {
+    color: #023047; 
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+/* Card container */
+.info-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns layout */
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Individual card styles */
+.card {
+    background-color: #c4a4ec5c; 
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 51, 0, 0.2); /* Red shadow effect */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    width: auto;
+    min-height: 250px;
+    overflow: hidden;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto; 
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    color: #09515f; 
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.card p {
+    color: #333;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* About section */
+.about {
+    max-width: 1300px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+
+.about h2 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+    font-weight: 600;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.about-Us {
+    text-align: center;
+}
+
+.about p {
+    line-height: 1.7;
+    font-size: 1.1em;
+    color: #555;
+    position: relative;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+/* Image inside About section */
+.about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensures text takes available space */
+.about-content > div > p {
+    flex: 1;
+}
+
+.image-caption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 5px;
+}
+
+figure {
+    margin: 0;
+}
+
+/* Last section inside about */
+.about-last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-last p {
+    width: 60%;
+}
+
+/* Future vision image */
+.about-last .Vision-for-the-Future-image {
+    max-width: 35%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Queries for Different Screen Sizes */
+@media (max-width: 768px) {
+    .info-cards {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .info-cards {
+        grid-template-columns: 1fr; /* Single column for small screens */
+        gap: 10px;
+    }
+}
