@@ -13,9 +13,12 @@ The website consists of a home page and a secondary page with a form, adhering t
 
 ## Live Demo
 
-🌐 **[View Live Demo](http://localhost:8000)**
+🌐 **[View Live Demo](https://noorzayed.github.io/Project-Busines-Landing-website/)**
 
-To run the live demo locally:
+The website is deployed globally using GitHub Pages and can be accessed from anywhere in the world.
+
+### Local Development
+To run the demo locally for development:
 1. Navigate to the project directory in your terminal
 2. Run: `python3 -m http.server 8000`
 3. Open your browser and go to `http://localhost:8000`
