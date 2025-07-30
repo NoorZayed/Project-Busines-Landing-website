@@ -11,6 +11,15 @@ This project involved building a responsive business landing website from scratc
 
 The website consists of a home page and a secondary page with a form, adhering to the project's requirements for functionality and design.
 
+## Live Demo
+
+🌐 **[View Live Demo](http://localhost:8000)**
+
+To run the live demo locally:
+1. Navigate to the project directory in your terminal
+2. Run: `python3 -m http.server 8000`
+3. Open your browser and go to `http://localhost:8000`
+
 ## Project Structure
 
 The project is organized as follows:
@@ -62,9 +71,17 @@ The project is organized as follows:
 
 ## How to Run
 
-1.  Clone the repository to your local machine.
-2.  Open the `index.html` file in your web browser.
-3.  Navigate to the `pages/contact.html` file to view the contact page.
+### Method 1: Live Server (Recommended)
+1. Navigate to the project directory in your terminal
+2. Run: `python3 -m http.server 8000`
+3. Open your browser and go to `http://localhost:8000`
+
+### Method 2: Direct File Opening
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your web browser.
+3. Navigate to the `pages/contact.html` file to view the contact page.
+
+**Note:** Using the live server method is recommended as it properly serves all assets and avoids potential CORS issues.
 
 ## Validation
 
