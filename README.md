@@ -86,6 +86,27 @@ The project is organized as follows:
 
 **Note:** Using the live server method is recommended as it properly serves all assets and avoids potential CORS issues.
 
+## Deployment
+
+The website is deployed globally using GitHub Pages. To deploy your own version:
+
+1. **Fork or clone this repository to your GitHub account**
+2. **Enable GitHub Pages:**
+   - Go to your repository on GitHub
+   - Click on "Settings" tab
+   - Scroll down to "Pages" in the left sidebar
+   - Under "Source", select "Deploy from a branch"
+   - Choose "main" branch and "/ (root)" folder
+   - Click "Save"
+3. **Your site will be available at:** `https://yourusername.github.io/repository-name/`
+
+The deployment is automatic - any changes pushed to the main branch will update the live site within a few minutes.
+
+### Alternative Deployment Options
+- **Netlify:** Drag and drop the project folder to [netlify.com](https://netlify.com)
+- **Vercel:** Connect your GitHub repository to [vercel.com](https://vercel.com)
+- **Surge.sh:** Use `npm install -g surge` and run `surge` in the project directory
+
 ## Validation
 
 * HTML code has been validated using the [W3C Markup Validation Service](https://validator.w3.org/).
