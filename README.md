@@ -11,8 +11,8 @@ This project involved building a responsive business landing website from scratc
 
 The website consists of a home page and a secondary page with a form, adhering to the project's requirements for functionality and design.
 <img width="1440" height="900" alt="Screenshot 2025-07-30 at 11 10 58 PM" src="https://github.com/user-attachments/assets/6e2dab8a-17c4-4aaf-9adf-5b3a341bd68a" />
-<img width="1440" height="900" alt="Scree<img width="1440" height="900" alt="Screenshot 2025-07-30 at 11 11 13 PM" src="https://github.com/user-attachments/assets/c2c469e9-ce68-414b-aee1-c2fae79fde68" />
-nshot 2025-07-30 at 11 11 06 PM" src="https://github.com/user-attachments/assets/cca51bd9-2b9c-4e4c-9327-e6692a5db9b8" />
+<img width="1440" height="900" alt="Screenshot 2025-07-30 at 11 11 06 PM" src="https://github.com/user-attachments/assets/84a20157-5e81-4101-872b-4e74350c7968" />
+<img width="1440" height="900" alt="Screenshot 2025-07-30 at 11 11 13 PM" src="https://github.com/user-attachments/assets/19a79e40-4e0f-400c-af38-535fabf560f4" />
 <img width="1440" height="900" alt="Screenshot 2025-07-30 at 11 11 25 PM" src="https://github.com/user-attachments/assets/c7f3a5ed-19d8-46a2-b735-7e0ffeef7309" />
 <img width="1440" height="900" alt="Screenshot 2025-07-30 at 11 11 33 PM" src="https://github.com/user-attachments/assets/f08f1a58-6daa-48ac-b56a-987aba49e317" />
 
